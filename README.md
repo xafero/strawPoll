@@ -6,3 +6,8 @@ Create a Poll Struct
  - Poll is multi select or single select
  - Restrict to Per ip / Per Browser
  - View votes for poll.
+
+## How to run
+
+docker build -t strawpoll .
+docker run -d -p 8080:8080 strawpoll
