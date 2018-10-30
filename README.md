@@ -9,5 +9,6 @@ Create a Poll Struct
 
 ## How to run
 
-docker build -t strawpoll .
-docker run -d -p 8080:8080 strawpoll
+* docker build -t strawpoll .
+* docker run -d -p 8080:8080 strawpoll
+* open http://localhost:8080
